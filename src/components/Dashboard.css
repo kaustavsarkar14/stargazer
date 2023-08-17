@@ -1,0 +1,77 @@
+.middlebar{
+    color: white;
+    height: 50vh;
+    width: 58vw;
+    position: absolute;
+    /* background-color: rgb(31, 31, 31); */
+    left: 7rem;
+    padding-inline: 2rem;
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.explore-btn {
+    background-color: red;
+    width: 9rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.goodmorning>p {
+    font-size: 0.9rem;
+}
+.task {
+    display: flex;
+}
+.img>img {
+    height: 100%;
+    object-fit: cover;
+}
+.img{
+    width: 1.9rem !important;
+    height: 1.9rem !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    object-fit: contain !important;
+    margin-right: 1rem !important;
+}
+.taskbar {
+    background-color: rgb(40,40,40);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+.tasklist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.name {
+    width: 20%;
+}
+.task {
+    width: 100%;
+}
+.taskname {
+    width: 60%;
+}
+.time{
+    width: 20%;
+    text-align: right;
+}
+.events-btn {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    padding: 1rem;
+    width: 9rem;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,84 @@
+.rightbar {
+    position: absolute;
+    height: 90vh;
+    width: 25rem;
+    right: 0;
+    padding: 2rem;
+}
+.pfp {
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 8rem;
+    top: 1rem;
+    cursor: pointer;
+}
+.date {
+    position: absolute;
+    top: 5rem;
+}
+.calanderdiv {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 8rem;
+    width: 24rem;
+}
+.dates {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.dates:hover {
+    background-color: rgb(40,40,40);
+    cursor: pointer;
+}
+.eventsdiv {
+    position: absolute;
+    top: 12rem;
+    width: 24rem;
+}
+.eventsdiv>h5 {
+    margin-bottom: 1rem;
+}
+.events {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+.number {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40,40,40);
+}
+.time {
+    position: relative;
+    top: 0;
+}
+.name {
+    display: flex;
+    width: 100%;
+}
+.times {
+    font-size: 10px;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+.desc {
+    opacity: 0.9;
+    font-size: 12px;
+}
